@@ -1,0 +1,14 @@
+{
+  "name": "ecs-demo",
+  "description": "ecs-demo app",
+  "scripts" : { "start" : "nodejs app.js" },
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "5.0.1",
+    "supertest": "3.0.0"
+  }
+}
