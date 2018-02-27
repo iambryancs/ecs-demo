@@ -7,8 +7,8 @@ WORKDIR /var/www/srv
 
 RUN npm install
 
-RUN chmod +x ./script/test.sh
-RUN ./script/test.sh
+RUN chmod +x ./test/test.sh
+RUN ./test/test.sh
 
 EXPOSE 80
 
